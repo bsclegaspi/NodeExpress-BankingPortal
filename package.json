@@ -39,5 +39,12 @@
     "sinon-chai": "3.2.0",
     "sinon-express-mock": "2.0.4",
     "supertest": "3.1.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules",
+      "src/**/json"
+    ]
   }
 }
